@@ -1312,6 +1312,7 @@ const BookList = () => {
     const book = books.find((book) => book.id === id);
     console.log(book);
   };
+  y;
 
   return (
     <section className="booklist">
